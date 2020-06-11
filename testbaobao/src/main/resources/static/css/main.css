@@ -1,0 +1,126 @@
+/* 公共样式 S */
+body{margin:20px 20px 20px 20px}
+h1, h2, h3, .masthead p, .subhead p, .marketing h2, .lead, .show-body {font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;font-weight: normal;}
+
+.show-head,.show-body {font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;font-weight: normal;font-size:14px;}
+input[type="text"],input[type="password"]{height:30px;}
+
+/* 公共样式 E */
+/* 用于栅格系统示例的样式 S */
+.show-grid [class*="span"] {
+    background-color: #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    line-height: 40px;
+    min-height: 40px;
+    text-align: center;
+}
+.show-grid {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.show-grid [class*="span"]:hover {
+    background-color: #DDDDDD;
+}
+.show-grid [class*="span"] [class*="span"] {
+    background-color: #CCCCCC;
+}
+.show-grid .show-grid [class*="span"] {
+    margin-top: 5px;
+}
+.show-grid [class*="span"] [class*="span"] [class*="span"] {
+    background-color: #999999;
+}
+/* 用于栅格系统示例的样式 E */
+/* 用于表达的样式 S */
+
+form.bs-docs-example {
+    padding-bottom: 19px;
+}
+.bs-docs-example {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    margin: 15px 0;
+    padding: 39px 19px 14px;
+    position: relative;
+}
+.bs-docs-example-submenus .dropup > .dropdown-menu, .bs-docs-example-submenus .dropdown > .dropdown-menu {
+    display: block;
+    margin-bottom: 5px;
+    position: static;
+}
+.bs-docs-example-submenus {
+    min-height: 180px;
+}
+/* 用于表达的样式 E */
+
+#showResult{
+    white-space: pre;
+}
+.show-head {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    margin: 2px 0;
+    padding: 2px;
+    position: relative;
+    overflow:auto;
+    height:100px;
+}
+.show-body {
+	white-space: pre;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    margin: 2px 0;
+    padding: 2px;
+/*     position: absolute; */
+    overflow:auto;
+    width:100%;
+    height:300px;
+}
+
+.jf-PropertyName {
+    color: #CC0000;
+    font-weight: bold;
+}
+
+/* Overlay style */
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+}
+/* Effects */
+.overlay-corner {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transform: translateY(0px) translateX(0px);
+	transform: translateY(0px) translateX(0px);
+	-webkit-transition: opacity 0.5s, -webkit-transform 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, transform 0.5s, visibility 0s 0.5s;
+}
+
+.overlay-corner.open {
+	filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+	-moz-opacity:0.5; 		  /*Firefox私有，透明度50%*/
+	opacity:0.5;			  /*其他，透明度50%*/
+	visibility: visible;
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
+	-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+	transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Menu style */
+.overlay .loading {
+	text-align: center;
+	position: relative;
+	top: 50%;
+/* 	height: 20; */
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
