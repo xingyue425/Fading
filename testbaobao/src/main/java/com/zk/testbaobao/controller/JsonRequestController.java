@@ -27,29 +27,13 @@ import java.util.List;
 public class JsonRequestController{
 	private static final Logger log = LoggerFactory.getLogger(JsonRequestController.class);
 	
-	/**
-	 * 
-	 * <br>描 述：页面跳转处理
-	 * <br>作 者：yufenghe 
-	 * <br>历 史: (版本) 作者 时间 注释
-	 * @param model
-	 * @return
-	 */
+
 	@RequestMapping(value = "init", method = RequestMethod.GET)
 	public String init(Model model) {
 		return "simu/jsonRequest";
 	}
 
-	/**
-	 * 
-	 * <br>描 述：
-	 * <br>作 者：yufenghe 
-	 * <br>历 史: (版本) 作者 时间 注释
-	 * @param jsonModel
-	 * @param model
-	 * @param session
-	 * @return
-	 */
+
 	@RequestMapping(value = "submit")
 	@ResponseBody
 	public String submit(JsonRequestModel jsonModel, Model model, HttpSession session) {

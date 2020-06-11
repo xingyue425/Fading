@@ -10,15 +10,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 import java.util.List;
 
-/** 
- * <br>类 名: AgentBaseInfoModel 
- * <br>描 述: 代销者获取基础数据
- * <br>作 者: zhaowei 
- * <br>创 建： 2016年8月26日 
- * <br>版 本：v1.0.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 public class AgentBaseInfoModel extends RequestModel{
 	@JsonProperty("param_key_list")
 	private List<String> paramKeyList = new ArrayList<String>();

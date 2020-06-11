@@ -8,15 +8,7 @@ package com.zk.testbaobao.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-/**
- * <br>类 名: AccountStatus 
- * <br>描 述: 根据总账户查询投注账户信息
- * <br>作 者: fanweilong
- * <br>创 建： 2016-12-14
- * <br>版 本：v1.8.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 public class FindMemberAccModel extends RequestModel{
 	
 	/**总账户**/

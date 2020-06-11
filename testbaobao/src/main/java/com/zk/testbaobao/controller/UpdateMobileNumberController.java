@@ -15,15 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 
-/**
- * <br>类 名: UpdateMobileNumberController 
- * <br>描 述: 修改手机号
- * <br>作 者: fanweilong 
- * <br>创 建： 2017年2月21日 
- * <br>版 本：v1.8.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 @Controller
 @RequestMapping(value = "/updateMobileNumber")
 public class UpdateMobileNumberController extends AgentAction{

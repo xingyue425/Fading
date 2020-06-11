@@ -10,15 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 
-/***
- * <br>类 名: GetResetpassPinController 
- * <br>描 述: 修改投注密码
- * <br>作 者: zhaowei 
- * <br>创 建： 2016年8月19日 
- * <br>版 本：v1.8.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 @Controller
 @RequestMapping(value = "/resetBetPass")
 public class ResetBetPassController extends AgentAction{

@@ -13,15 +13,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 import java.util.List;
 
-/** 
- * <br>类 名: QueryBetResultDetailModel 
- * <br>描 述: 投注记录详情实体
- * <br>作 者: yufenghe 
- * <br>创 建： 2016年5月3日 
- * <br>版 本：v1.0.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 @JsonIgnoreProperties
 public class QueryBetResultDetailModel extends RequestModel{
 	

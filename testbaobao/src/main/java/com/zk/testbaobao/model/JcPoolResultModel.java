@@ -6,16 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 
 
-/**
- * 
- * <br>类 名: JcPoolResultModel
- * <br>描 述: 查询竞彩指定奖池及彩果
- * <br>作 者: fanweilong
- * <br>创 建： 2016年12月28日 
- * <br>版 本：v1.8.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 public class JcPoolResultModel extends RequestModel{
 	/**
 	 * 入参类别

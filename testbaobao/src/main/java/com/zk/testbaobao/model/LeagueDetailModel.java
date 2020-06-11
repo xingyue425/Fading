@@ -7,15 +7,7 @@ package com.zk.testbaobao.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-/**
- * <br>类 名: LeagueDetailModel 
- * <br>描 述: 竞彩赛果查询
- * <br>作 者: fanweilong
- * <br>创 建： 2016年8月26日 
- * <br>版 本：v1.0.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 public class LeagueDetailModel extends  RequestModel {
 	/**
 	 * 开赛时间（格式： yyyy-mm-dd）

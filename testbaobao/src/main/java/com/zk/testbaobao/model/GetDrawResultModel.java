@@ -3,15 +3,7 @@ package com.zk.testbaobao.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-/***
- * <br>类 名: GetDrawResultModel
- * <br>描 述: 开奖公告信息查询
- * <br>作 者: helongtao
- * <br>创 建： 2017-2-24
- * <br>版 本：v1.7.2
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 public class GetDrawResultModel extends RequestModel{
 	
 	/**玩法唯一编号**/

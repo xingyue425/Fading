@@ -10,16 +10,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 
-/**
- * 
- * <br>类 名: ProductSalingController 
- * <br>描 述: 在售数字彩奖期查询
- * <br>作 者: yufenghe 
- * <br>创 建： 2016年5月9日 
- * <br>版 本：v1.0.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
 @Controller
 @RequestMapping(value = "/productListSaling")
 public class ProductListSalingController extends AgentAction{

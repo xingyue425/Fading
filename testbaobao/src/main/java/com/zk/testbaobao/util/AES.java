@@ -1,10 +1,6 @@
 package com.zk.testbaobao.util;
 
-/***********************************************************************
- * Module:  AES.java
- * Author:  Administrator
- * Purpose: Defines the Class AES
- ***********************************************************************/
+
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;

@@ -14,15 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-/** 
- * <br>类 名: SessionInitFilter 
- * <br>描 述: session初始化赋值 
- * <br>作 者: zhaowei 
- * <br>创 建： 2016年8月29日 
- * <br>版 本： v1.8.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 public class SessionInitFilter implements Filter {
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)

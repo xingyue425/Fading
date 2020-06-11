@@ -7,15 +7,7 @@ package com.zk.testbaobao.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-/**
- * <br>类 名: AccountSummaryModel 
- * <br>描 述: 账户明细查询
- * <br>作 者: zhaowei 
- * <br>创 建： 2016年8月26日 
- * <br>版 本：v1.0.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 public class AccountSummaryModel extends  RequestModel {
 	/**
 	 * 起始日期（格式： yyyy-MM-dd）

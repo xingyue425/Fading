@@ -26,16 +26,7 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * 
- * <br>类 名: BonusController 
- * <br>描 述: 用户红包充值 
- * <br>作 者: yufenghe 
- * <br>创 建： 2016年5月10日 
- * <br>版 本：v1.0.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 @Controller
 @RequestMapping(value = "/bonus")
 public class BonusController {

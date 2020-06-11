@@ -8,13 +8,6 @@ import org.springframework.context.MessageSource;
 
 import java.util.Locale;
 
-/**
- * Created with IntelliJ IDEA.
- * User: swen
- * Date: 13-10-9
- * Time: 上午10:56
- * To change this template use File | Settings | File Templates.
- */
 public class ResourceUtils {
     public static MessageSource messageSource = null;
 

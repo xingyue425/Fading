@@ -6,15 +6,7 @@
 package com.zk.testbaobao.model;
 
 
-/** 
- * <br>类 名: JsonRequestModel 
- * <br>描 述: json请求 
- * <br>作 者: yufenghe 
- * <br>创 建： 2016年5月12日 
- * <br>版 本：v1.0.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 public class JsonRequestModel extends RequestModel {
 	
 	/**

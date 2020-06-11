@@ -9,16 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 
-/**
- * 
- * <br>类 名: SaleLimitController
- * <br>描 述: 查询玩法销售限制时段
- * <br>作 者: helongtao
- * <br>创 建： 2017年01月16日
- * <br>版 本：v1.0.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
- */
+
 @Controller
 @RequestMapping(value = "/saleLimit")
 public class SaleLimitController extends AgentAction{
