@@ -7,7 +7,7 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
-
+//或者实现WebMvcConfigurationSupport
 public class MyWebmvcConfiguration implements WebMvcConfigurer {
 
     @Override
